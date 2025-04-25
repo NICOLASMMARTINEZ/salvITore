@@ -26,13 +26,18 @@ header h1 {
 .ns {
   border-radius: 100px;
   background-color: #161616;
-  height: 80px; /* Mantener la altura de la sección */
-  text-align: center; /* Centrado horizontal */
-  display: flex; /* Usamos flexbox para el centrado vertical */
-  justify-content: center; /* Centrado horizontal */
-  align-items: center; /* Centrado vertical */
+  height: 80px; 
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
-
+.ns h1 {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Asegúrate de que esta fuente tenga una versión fina */
+  font-weight: 100; /* Peso ultra fino si la fuente lo soporta */
+  color: white;
+  margin: 0;
+}
 .info h2 {
   color: #ecf83e;
 }
