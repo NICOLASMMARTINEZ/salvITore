@@ -24,10 +24,17 @@ header h1 {
 }
 
 .ns {
+  border-radius: 100px;
   background-color: #161616;
-  text-align: center;
+  height: 80px; /* Mantener la altura de la sección */
+  text-align: center; /* Centrado horizontal */
+  display: flex; /* Usamos flexbox para el centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
 }
-
+.ns h1{
+  
+}
 .info h2 {
   color: #ecf83e;
 }
