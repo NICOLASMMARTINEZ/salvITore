@@ -58,6 +58,8 @@ header h1 {
 }
 
 .contacto {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Asegúrate de que esta fuente tenga una versión fina */
+  font-weight: 100; /* Peso ultra fino si la fuente lo soporta */
   margin-top: 40px;
 }
 
