@@ -18,15 +18,24 @@ header h1 {
 }
 
 .contenido {
-  border-radius: 10px;
-  background-color: #161616;
   font-family: 'Helvetica Neue', Arial, sans-serif; /* Asegúrate de que esta fuente tenga una versión fina */
   font-weight: 100; /* Peso ultra fino si la fuente lo soporta */
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
 }
-
+.contenido h2 {
+  border-radius: 100px;
+  background-color: #161616;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Asegúrate de que esta fuente tenga una versión fina */
+  font-weight: 100; /* Peso ultra fino si la fuente lo soporta */
+  color: white;
+  height: 80px; 
+  text-align: left; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
 .ns {
   border-radius: 100px;
   background-color: #161616;
