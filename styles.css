@@ -18,6 +18,8 @@ header h1 {
 }
 
 .contenido {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Asegúrate de que esta fuente tenga una versión fina */
+  font-weight: 100; /* Peso ultra fino si la fuente lo soporta */
   max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
@@ -76,7 +78,7 @@ header h1 {
 }
 
 .contacto button {
-  background-color: #a7aa05;
+  background-color: #c5c908;
   color: white;
   border: none;
   padding: 12px;
@@ -98,7 +100,7 @@ header h1 {
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #1a1a2e;
+  color: #121229;
   transition: color 0.3s;
 }
 
@@ -107,7 +109,7 @@ header h1 {
 }
 
 footer {
-  background-color: #1a1a2e;
+  background-color: #141420;
   color: white;
   text-align: center;
   padding: 20px;
