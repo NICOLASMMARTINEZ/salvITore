@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0f0f0f;
-  color: white;
+  color: rgb(250, 201, 160);
 }
 
 header {
@@ -30,7 +30,7 @@ header h1 {
 
 .contenido h2 {
   border-radius: 100px;
-  background-color: #161616;
+  background-color: #ac8f7d;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
   color: white;
@@ -43,7 +43,7 @@ header h1 {
 
 .ns {
   border-radius: 100px;
-  background-color: #161616;
+  background-color: #ac8f7d;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -109,7 +109,7 @@ header h1 {
 }
 
 .contacto button {
-  background-color: #c5c908;
+  background-color: #634734;
   color: white;
   border: none;
   padding: 12px;
@@ -133,16 +133,16 @@ header h1 {
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #094488;
+  color: #634734;
   transition: color 0.3s;
 }
 
 .redes a:hover {
-  color: #a7aa05;
+  color: #fcdba9;
 }
 
 footer {
-  background-color: #141420;
+  background-color: #422f22;
   color: white;
   text-align: center;
   padding: 20px;
