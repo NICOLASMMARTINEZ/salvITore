@@ -54,6 +54,12 @@ header h1 {
   text-align: center;
 }
 
+.info img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* opcional, para centrar con espacio */
+}
 .ns {
   border-radius: 100px;
   background-color: #F8F6F4;
