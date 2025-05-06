@@ -188,7 +188,14 @@ footer {
   .contenido {
     padding: 0 10px;
   }
-
+  .info img {
+    width: 100%;       /* versión escritorio: imagen más chica */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
   .contenido h2,
   .ns {
     height: auto;
