@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0f0f0f;
-  color: rgb(250, 201, 160);
+  color: #817777;
 }
 
 header {
@@ -19,6 +19,19 @@ header h1 {
   font-size: 2.5em;
 }
 
+.imgpresentacion {
+  width: 100%;
+  display: flex;
+  justify-content: center;  /* CENTRA la imagen horizontalmente */
+  overflow: hidden;
+}
+
+.imgpresentacion img {
+  max-width: 100%;           /* nunca se pasa del ancho de pantalla */
+  height: auto;
+  display: block;
+}
+
 .contenido {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
@@ -30,10 +43,10 @@ header h1 {
 
 .contenido h2 {
   border-radius: 100px;
-  background-color: #ac8f7d;
+  background-color: #F8F6F4;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
-  color: white;
+  color: #817777 !important;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -43,7 +56,7 @@ header h1 {
 
 .ns {
   border-radius: 100px;
-  background-color: #ac8f7d;
+  background-color: #F8F6F4;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -54,7 +67,7 @@ header h1 {
 .ns h1 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
-  color: white;
+  color: #817777;
   margin: 0;
 }
 
