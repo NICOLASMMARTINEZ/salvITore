@@ -56,7 +56,7 @@ header h1 {
 }
 
 .info img {
-  width: 80%;       /* versión escritorio: imagen más chica */
+  width: 60%;       /* versión escritorio: imagen más chica */
   max-width: 100%;
   height: auto;
   display: block;
@@ -64,6 +64,7 @@ header h1 {
 }
 
 .ns {
+  margin-top: 30px;
   border-radius: 100px;
   background-color: #F8F6F4;
   height: 80px;
@@ -101,6 +102,10 @@ header h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.ilustracion img {
+  width: 80%; /* o por ejemplo: 600px */
+  height: auto; /* mantiene la proporción */
+}
 .contacto {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
