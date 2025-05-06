@@ -27,11 +27,12 @@ header h1 {
 }
 
 .imgpresentacion img {
-  max-width: 100%;           /* nunca se pasa del ancho de pantalla */
+  width: 50%;       /* versión escritorio: imagen más chica */
+  max-width: 100%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
-
 .contenido {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
@@ -55,11 +56,13 @@ header h1 {
 }
 
 .info img {
+  width: 80%;       /* versión escritorio: imagen más chica */
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 20px auto; /* opcional, para centrar con espacio */
+  margin: 0 auto;
 }
+
 .ns {
   border-radius: 100px;
   background-color: #F8F6F4;
@@ -174,7 +177,9 @@ footer {
   header h1 {
     font-size: 1.8em;
   }
-
+  .imgpresentacion img {
+    width: 100%;
+  }
   .contenido {
     padding: 0 10px;
   }
